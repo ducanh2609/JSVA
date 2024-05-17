@@ -1,0 +1,53 @@
+.box1 {
+  /* position: relative; */
+  background-color: rgb(52, 52, 226);
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  top: 30px;
+}
+
+.box2 {
+  /* position: absolute; */
+  background-color: rgb(70, 193, 92);
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  /* top: 10px;
+  left: 10px; */
+  bottom: 20px;
+  right: 20px;
+}
+
+.box3 {
+  /* position: absolute; */
+  background-color: rgb(235, 116, 42);
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  top: 300px;
+}
+
+.input-box {
+  position: relative;
+  top: 200px;
+  border: 1px solid red;
+}
+
+input {
+  position: absolute;
+  height: 40px;
+  width: 300px;
+  top: 0;
+  left: 0;
+}
+
+.point {
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  background-color: brown;
+  border-radius: 50%;
+  bottom: 8px;
+  left: 250px;
+}

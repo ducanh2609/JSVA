@@ -40,12 +40,24 @@ input {
   padding: 0 10px;
 }
 
-.username {
+/* .username {
   display: flex;
   align-items: center;
+} */
+.username {
+  position: relative;
+  /* height: 65px; */
+  /* border: 1px solid red; */
 }
-
+.username input {
+  width: 68%;
+}
 .username button {
+  position: absolute;
+  /* left: 310px;
+  bottom: 53px; */
+  right: 0;
+  top: 10px;
   height: 44px;
   margin-left: 5px;
   width: 100px;
