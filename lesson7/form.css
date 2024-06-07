@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(96, 96, 96);
+}
+body {
+  background-color: rgb(240, 204, 137);
+}
+.form-box {
+  width: 700px;
+  height: 66vh;
+  margin: 17vh auto;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(86, 86, 86);
+}
+
+.form-input {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.form-input div {
+  display: flex;
+  margin: 20px 0 15px 0;
+}
+
+.form-input div input:nth-child(1) {
+  width: calc(50% - 20px);
+}
+.form-input div input:nth-child(2) {
+  flex: 1;
+}
+.form-input div input + input {
+  margin-left: 40px;
+}
+
+.form-input > textarea {
+  flex: 1;
+}
+.form-button {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.form-button button {
+  padding: 0 10px;
+  background-color: rgb(30, 193, 211);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 2px 3px 5px rgb(142, 142, 142);
+}
+.form-button button:hover {
+  cursor: pointer;
+  box-shadow: 2px 3px 5px rgb(126, 101, 101);
+  color: rgb(227, 227, 107);
+}
+
+input {
+  height: 40px;
+  padding: 0 10px;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid rgb(107, 106, 106);
+}
+
+textarea {
+  padding: 10px;
+  outline: none;
+}
